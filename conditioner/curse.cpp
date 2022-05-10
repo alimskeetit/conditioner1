@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "");
-	Thermometer thermometer;
-	Conditioner conditioner(&thermometer);
+	Thermometer thermometer2;
+	Conditioner conditioner(&thermometer2);
 	CRC pult(conditioner);
 }
